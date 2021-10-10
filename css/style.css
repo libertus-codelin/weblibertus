@@ -1,0 +1,133 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: arial;
+}
+.menu-navigasi {
+   background-color:	#5F9EA0;
+   padding: 15px;
+}
+.namatoko {
+   background-color: tomato;
+   font-weight: bold;
+   font-style: oblique;
+   font-size: 20px;
+   border-radius: 5px;
+   text-decoration: underline;
+}
+ul li {
+   border-radius: 5px;
+   display: inline-block;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+ul li a {
+   padding-left: 10px;
+   text-decoration: none;
+   color: white;
+   padding: 10px;
+   font-weight: bold;
+}
+ul li a:hover {
+   background-color: black;
+   color: white;
+   transition: 1s;
+   border-radius: 5px;
+}
+input {
+   padding: 3px;
+   margin-left: 15px;
+}
+.cari {
+   margin-left: 2px;
+   padding-left: 7px;
+   padding-right: 7px;
+}
+/* tulisan koleksi */
+.koleksi {
+   margin-left: 35px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+}
+
+/* script css halaman produk */
+.daftar-produk {
+   margin-top: 10px;
+   margin-left: 2%;
+}
+div.responsive {
+   padding: 5px;
+}
+div.gallery {
+   border-radius: 5px;
+   border: 1px solid #DCDCDC;
+}
+div.gallery:hover {
+   border: 1px solid #777;
+}
+div.gallery img {
+   padding-left: 0%;
+   width: 100%;
+   height: auto;
+}
+div.desc {
+   padding: 15px;
+   padding-bottom: 10px;
+}
+p {
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.beli-produk {
+   text-decoration: none;
+   padding: 10px;
+   background-color: #4CAF50;
+   color: white;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+.beli-produk:hover {
+   cursor: pointer;
+}
+.btn-detail {
+   padding: 10px;
+   text-decoration: none;
+   background-color: #555555;
+   color: white;
+   border-radius: 5px;
+   border: 1px solid black;
+}
+.responsive {
+   padding: 0 6px;
+   float: left;
+   width: 20%;
+}
+@media only screen and (max-width: 700px){
+   .responsive {
+       width: 49.99999%;
+       margin: 6px 0;
+   }
+}
+@media only screen and (max-width: 500px){
+   .responsive {
+       width: 100%;
+   }
+}
+.container {
+   margin-left: 25px;
+}
+.keranjang-belanja{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+table {
+   width: 60%;
+}
+.tombol-kembali {
+   text-decoration: none;
+   background-color: cornflowerblue;
+   color: white;
+   padding: 10px;
+   border-radius: 5px;
+}
